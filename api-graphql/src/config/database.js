@@ -8,4 +8,4 @@ module.exports = knex
 //     password: 'teste'
 // }).then(data => console.log(data))
 
- knex('users').where({id: 2}).first().then(resultado => console.log(resultado))
+//knex('users').where({id: 2}).first().then(resultado => console.log(resultado))
